@@ -82,7 +82,7 @@
                     {%- else -%}
                             <!--- Show Feed Part -->
                 <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                            <h5 class="meta-title"><a href="/">← Home</a></h5>
+                            <h5 class="meta-title"><a href="/">← START</a></h5>
                             <div class="jumbo">{{page.title}}</div>
                             {%- include Content.html -%}
                             {%- include Feed.html -%}
@@ -94,7 +94,7 @@
             <!--- Notes Feed Layout-->
             {%- if page.feedformat -%}
             <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                <h5 class="meta-title"><a href="/">← Home</a></h5>
+                <h5 class="meta-title"><a href="/">← START</a></h5>
                     <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {%- include Feed.html -%}
@@ -110,7 +110,7 @@
                             {%- else -%}
                             <a onclick="window.location.assign('/');">
                             {%- endif -%}
-                                    <h5 class="meta-title">← BACK</h5>
+                                    <h5 class="meta-title">← ZURÜCK</h5>
                             </a>
                         </div>
                     <!--- List type Note Layout-->
@@ -132,7 +132,7 @@
             <!--- Post Feed Layout-->
             {%- if page.permalink == "/posts" -%}
             <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
-                <h5 class="meta-title"><a href="/">← Home</a></h5>
+                <h5 class="meta-title"><a href="/">← START</a></h5>
                 <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {% for post in site.posts %}
@@ -158,7 +158,7 @@
                              {%- else -%}
                              <a onclick="window.location.assign('/');">
                              {%- endif -%}
-                                     <h5 class="meta-title">← BACK</h5>
+                                     <h5 class="meta-title">← ZURÜCK</h5>
                              </a>
                          </div>
                      <h1>{{page.title}}</h1>

@@ -27,16 +27,16 @@ baseurl: ""
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: Jekyll Garden # Change this 
-content: Obsidian ready Jekyll Theme
-copyright:  
-  year: © 2022
-  msg: Contents under CC-BY-NC 
+heading: rolirk  # Change this 
+content: Blog, Feed, Notizen, Gedanken, Ideen
+# copyright:  
+#   year: © 2022
+#   msg: Contents under CC-BY-NC 
 
 # Set title and content for private & broken link tooltop
 privatelinks:
-  title: Private or Broken Links
-  msg: The page you're looking for is either not available or private!
+  title: Private oder kaputte Links
+  msg: Diese Seite ist entweder privat oder existiert nicht mehr!
 
 # Theme level preferences
 # To enable set "enabled : true" else, use "enabled:false"
@@ -110,6 +110,7 @@ exclude:
   - _notes/000 Inbox
   - _notes/200 Private
   - _notes/300 Templates
+  - .obsidian
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
