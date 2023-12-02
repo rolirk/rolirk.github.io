@@ -21,5 +21,4 @@ Zunächst geht es in Richtung **Grundlagen**:
 ## Netzwerk
 <img src="../assets/img/20231111152704.png">
 ## Scripting
-
-
+<img src="../assets/img/20231116093928.png">
